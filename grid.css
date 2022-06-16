@@ -1,0 +1,68 @@
+
+body{
+    background-color: rgb(29, 37, 37);
+}
+main{
+    width: 40%;
+    margin: auto;
+    
+}
+section{
+    border-top: 43px;
+}
+.grid-container {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .6fr;
+    grid-gap: 10px;
+    margin-top: 8vh;
+}
+.grid-item{
+padding: 20px;
+}
+.item-1{
+background-color: orangered;
+color: orangered;
+grid-column: 1/3;
+
+}
+.item-2{
+background-color: orange;
+color: orange;
+}
+.item-3{
+background-color: green;
+color: green;
+grid-row: 2/4 ;
+grid-column-start: 1fr;
+}
+.item-4{
+background-color:rgb(70, 146, 177);
+grid-column: 2/4;
+color: rgb(70, 146, 177);
+}
+.item-5{
+background-color: rgb(70, 146, 177);
+grid-column: 2/4;
+color: rgb(70, 146, 177);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    place-content: center;
+    border: 3px;
+    padding: 6px 15px;
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca',
+        sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}

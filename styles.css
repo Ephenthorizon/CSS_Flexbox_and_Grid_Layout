@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 700;
+    max-width: 1440px;
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    display: flex;
+    Font-size: 15px;
+    padding: 50px;
+    place-content: center;
+    font-family: 'Lexend Deca',sans-serif;
+    
+}
+section {
+    width: 300px;
+    height: 480px;
+    padding: 20px;
+}
+.first-section{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding-left: 50px;
+}
+.second-section {
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 50px;
+}
+.third-section{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-left: 50px;
+}
+#first-anchor{
+    color:hsl(31, 77%, 52%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(0, 0%, 95%);
+    border-radius:20px; 
+    font-weight: 400;
+    font-family: 'Lexend Deca',
+    sans-serif;
+    
+}
+#second-anchor {
+    color: hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    font-weight: 400;
+    font-family: 'Lexend Deca',
+    sans-serif;
+}
+
+#third-anchor {
+    color: hsl(179, 100%, 13%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    font-weight: 400;
+    font-family: 'Lexend Deca',
+    sans-serif;
+}
+#first-anchor:hover {
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(31, 77%, 52%);
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+#second-anchor:hover {
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+#third-anchor:hover {
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.paragraph{
+    color: hsl(0, 0%, 100%, 0.75);
+    line-height: 30px;
+    font-family: 'Lexend Deca',
+    sans-serif;
+    font-weight: 400;
+
+}
+h1 {
+    font-family: 'Big Shoulders Display',
+    sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 32px;
+}
+.first{
+    padding-top: 64px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    place-content: center;
+    border: 3px ;
+    padding: 6px 15px;
+    background-color:hsl(184, 100%, 22%);;
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca',
+    sans-serif;
+    font-weight: 400;
+}
